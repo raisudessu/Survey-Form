@@ -1,0 +1,74 @@
+
+<head>
+  <link rel="stylesheet" href="css task 2.css">
+</head>
+
+<body>
+  <div class="pageTitle">
+    <h1 id="title"> freeCodeCamp Survey Form </h1>
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
+  </div>
+
+  <div class="form">
+    <form id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+      <label id="email-label" for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter Your Email" required><br><br>
+      <label id="number-label" for="number">Age(optional)</label>
+      <input type="number" id="number" placeholder="Age" min="18" max="70"><br><br>
+      <p>Which option best describes your current role?</p>
+      <label for="roles">Select current role</label>
+      <select name="roles" id="dropdown">
+        <option value="student">Student</option>
+        <option value="fulltimejob">Full Time Job</option>
+        <option value="fulltimelearner">Full Time Learner</option>
+        <option value="prefernottosay">Prefer Not To Say</option>
+        <option value="other">Other</option>
+      </select><br>
+      <p>Would you recommend FreeCodeCamp to a friend</p>
+      <input id="definitely" type="radio" name="rate" value="three">
+      <label for="definitely">Definitely</label><br>
+      <input id="maybe" type="radio" name="rate" value="two">
+      <label for="maybe">Maybe</label><br>
+      <input id="notsure" type="radio" name="rate" value="one" checked>
+      <label for="notsure">Not Sure</label><br>
+      <p>What is your favorite feature of freeCodeCamp?</p>
+      <label for="feature">Select an option</label>
+      <select name="feature" id="dropdown">
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="opensource">Opensource</option>
+      </select><br>
+      <p>What would you like to see improved? (Check all that apply)</p>
+      <input id="frontendproject" type="checkbox" name="feature" value="frontendproject">
+      <label for="frontendproject">Front-End Projects</label><br>
+      <input id="backendproject" type="checkbox" name="feature" value="backendproject">
+      <label for="backendproject">Back-End Projects</label><br>
+      <input id="datavisualization" type="checkbox" name="feature" value="datavisualization">
+      <label for="datavisualization">Data Visualization</label><br>
+      <input id="challenges" type="checkbox" name="feature" value="challenges" checked>
+      <label for="challenges">Challenges</label><br>
+      <input id="oscommunity" type="checkbox" name="feature" value="oscommunity">
+      <label for="oscommunity">Open Source Community</label><br>
+      <input id="gitterhelprooms" type="checkbox" name="feature" value="gitterhelprooms">
+      <label for="gitterhelprooms">Gitter help rooms</label><br>
+      <input id="videos" type="checkbox" name="feature" value="videos">
+      <label for="videos">Videos</label><br>
+      <input id="citymeetups" type="checkbox" name="feature" value="citymeetups">
+      <label for="citymeetups">City Meetups</label><br>
+      <input id="wiki" type="checkbox" name="feature" value="wiki">
+      <label for="wiki">Wiki</label><br>
+      <input id="forum" type="checkbox" name="feature" value="forum">
+      <label for="forum">Forum</label><br>
+      <input id="addcourse" type="checkbox" name="feature" value="addcourse">
+      <label for="addcourse">Additional Course</label><br>
+      <p>Any comments or suggestions?</p>
+      <textarea id="comment" name="comment-id" rows="10" cols="50"></textarea>
+      <input id="submit" type="submit" name="submit" vakue="submit">
+    </form>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+

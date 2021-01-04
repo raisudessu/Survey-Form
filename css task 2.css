@@ -1,0 +1,33 @@
+.pageTitle {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form {
+  font-family: monospace;
+  font-size: 20px;
+  border-color: turquoise;
+  width: 500px;
+  border: 2px solid #cccccc;
+  margin: 100px 300px;
+  padding: 100px;
+  background-color: peachpuff;
+}
+
+body {
+  background-color: palegoldenrod;
+}
+
+@media (min-width: 1280px) {
+  .form {
+    font-family: monospace;
+    font-size: 20px;
+    border-color: turquoise;
+    width: 500px;
+    border: 2px solid #cccccc;
+    margin: 100px 300px;
+    padding: 100px;
+    background-color: peachpuff;
+  }
+}
+
